@@ -49,11 +49,11 @@ Maximize: Σ(discharge[t] × price[t] - charge[t] × price[t])
 ## File Structure
 
 ```
-bess_optimization.py              # Main optimization script
-bess_optimization_results.png     # Visualization output
-bess_optimization_detailed_results.csv  # Detailed interval-by-interval results
-README.md                         # This file
-requirements.txt                  # Python dependencies
+bess_optimization.py              
+bess_optimization_results.png     
+bess_optimization_detailed_results.csv  
+README.md                        
+requirements.txt                  
 ```
 
 ## Installation & Usage
@@ -66,19 +66,6 @@ pip install pandas numpy scipy matplotlib
 Or using the provided requirements file:
 ```bash
 pip install -r requirements.txt
-```
-
-### Setup
-1. **Place the CSV file in the same directory as the script**
-   - Make sure `PRICE_AND_DEMAND_202602_SA1.csv` is in the same folder as `bess_optimization.py`
-
-2. **Directory structure should look like this:**
-```
-your-project-folder/
-├── bess_optimization.py
-├── PRICE_AND_DEMAND_202602_SA1.csv
-├── requirements.txt
-└── README.md
 ```
 
 ### Running the Script
@@ -197,4 +184,5 @@ The LP formulation closely matches production implementations used by energy tra
 
 **Assessment Completion Time**: ~3 hours  
 **Primary Tools**: Python, SciPy, Pandas, Matplotlib  
+
 **Optimization Method**: Linear Programming (HiGHS solver)
