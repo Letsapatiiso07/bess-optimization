@@ -182,7 +182,7 @@ The LP formulation closely matches production implementations used by energy tra
 
 ---
 
-**Assessment Completion Time**: ~3 hours  
 **Primary Tools**: Python, SciPy, Pandas, Matplotlib  
 
 **Optimization Method**: Linear Programming (HiGHS solver)
+
